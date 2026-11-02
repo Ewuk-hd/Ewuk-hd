@@ -6,8 +6,20 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=1200&color=00F5D4&center=true&vCenter=true&width=640&lines=Trying+different+things%3A+backend%2C+ML%2C+CV%2C+GameDev" alt="Trying different things: backend, ML, CV, GameDev" />
 </p>
 
-<!-- GIF: replace assets/hero.gif with your own file, or put a link in src. width sets its size. -->
-<img align="right" width="280" src="assets/hero.gif" alt="" />
+<!-- GIF: replace assets/hero.gif with your own file, about 300 px wide. There are two blocks: GitHub ignores CSS, so the media queries pick the layout. -->
+<!-- Phones and narrow windows: the GIF stands on its own above the text. -->
+<p align="center">
+  <picture>
+    <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Ewuk-hd/Ewuk-hd/main/assets/hero.gif" />
+    <img src="assets/blank.gif" alt="" />
+  </picture>
+</p>
+
+<!-- Wide screens: the GIF sits to the right of the text. -->
+<picture>
+  <source media="(min-width: 1012px)" srcset="https://raw.githubusercontent.com/Ewuk-hd/Ewuk-hd/main/assets/hero.gif" />
+  <img align="right" src="assets/blank.gif" alt="" />
+</picture>
 
 ### About me
 
